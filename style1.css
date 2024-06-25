@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  margin: 50px 50px 0px 50px;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+.logo {
+  position: relative;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 30px;
+}
+.mockup {
+  max-width: 600px;
+}
+.text {
+  color: white;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600px;
+}
+.text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400px;
+}
+.text button {
+  border: none;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 40px 10px 40px;
+  border-radius: 40px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+.text button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
